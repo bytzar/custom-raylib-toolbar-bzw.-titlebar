@@ -12,3 +12,7 @@ I got tired of my incapeablity to change the icon of the main raylib window, so 
 - Fullscreen
 - exit
 - All Of The Above In A Handy Right-Click-Menu
+
+
+# Note
+   I Forgot to Deinitialize and I do not know how to efficiently unload 70ish ressources; The program won't have Deinitlilisation or proper spelling in its readme
