@@ -12,6 +12,8 @@ I got tired of my incapeablity to change the icon of the main raylib window, so 
 - Fullscreen
 - exit
 - All Of The Above In A Handy Right-Click-Menu
+- Window can be moved across the screen (at the height of the icons; simply left click and move around)
+- Curser is hidden after a second of inactivity 
 
 
 # Note
