@@ -27,7 +27,7 @@ Vector2 pos;
 int windowpositionx;
 int windowpositiony;
 
-
+bool judas = false;
 string screenfilename;
 int value = 0;
 
@@ -738,6 +738,7 @@ int main()
                 EndDrawing();
                 timerforscreenshot = 0;
                 doublecheck = false;
+                judas = true;
             }
             if (timerforscreenshot == 5)
             {
@@ -815,8 +816,12 @@ int main()
                 ShowCursor();
             }
             timerforscreenshot = 0;
+            judas = false;
         }
-        timerforscreenshot++;
+        if (judas)
+        {
+            timerforscreenshot++;
+        }
         pause = false;
         toolbarfunctionality();
         if (GetMouseX() <= screenWidth && GetMouseX() >= screenWidth - 19 && GetMouseY() >= 0 && GetMouseY() <= 19)
