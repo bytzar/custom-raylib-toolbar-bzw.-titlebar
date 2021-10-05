@@ -18,3 +18,6 @@ I got tired of my incapeablity to change the icon of the main raylib window, so 
 
 # Note
    I Forgot to Deinitialize and I do not know how to efficiently unload 70ish ressources; The program won't have Deinitlilisation or proper spelling in its readme
+   
+     
+     Will clean up and update regularly
